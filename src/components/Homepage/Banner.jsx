@@ -19,12 +19,12 @@ const Banner = () => {
             <div className='space-y-6'>
             <h1 className="text-4xl text-white font-bold">{banner.title}</h1>
             <p className="text-white mt-4">{banner.description}</p>
-            <button className='btn btn-primary'>Discovery more</button>
+            <button className='btn btn-primary mr-4'>Discovery more</button>
             <button className='btn btn-outline btn-primary '>Latest projects</button>
             </div>
           </div>
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href={banner.prev} className="btn btn-circle">❮</a>
+          <div className="absolute  flex transform bottom-12 right-12 justify-between">
+            <a href={banner.prev} className="btn btn-circle mr-6">❮</a>
             <a href={banner.next} className="btn btn-circle">❯</a>
           </div>
         </div>
